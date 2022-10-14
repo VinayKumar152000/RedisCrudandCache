@@ -1,0 +1,15 @@
+Redis is an open-source, in-memory data structure store used as a database,
+ cache, and message broker.
+
+It is a NoSQL advanced key-value data store, and is often referred to as a data structure server because its keys contain strings, 
+hashes, lists, sets, sorted sets, bitmaps, and hyperloglogs. Redis’ read and write operations are very fast because it stores data in memory.
+Data can also be stored on the disk or written back to the memory.
+Since Redis stores its data in memory, it is most commonly used as a cache.
+
+Speed: Redis is very fast. It can perform 110,000 SETs per second and 81,000 GETs per second.
+Supports rich data types: Redis supports most of the data types, such as list, set, sorted set, and hashes. This gives you a ton of flexibility
+Operations are atomic: This ensures that if two clients access data concurrently, the Redis server will receive an updated value.
+Versatile uses: Redis can be used for caching, messaging-queues, and short-lived data such as web application sessions.
+Easy to set up: Redis is easy to configure
+
+-> Redis can be used as message broker like kafka and rabiitmq.
